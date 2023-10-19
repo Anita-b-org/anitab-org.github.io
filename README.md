@@ -56,15 +56,7 @@ upstream        https://github.com/anitab-org/anitab-org.github.io.git (fetch)
 upstream        https://github.com/anitab-org/anitab-org.github.io.git (push)
 ```
 
-### Run app
 
-Download the latest stable version of NodeJs [here](https://nodejs.org/en/download/) and install it. Install `yarn`. Run `node --version` and `yarn --version` to verify successful installation.
-
-To get the frontend running locally:
-
-- Clone this repository
-- `yarn` to install all required dependencies
-- `yarn start` to start the local server
 
 ## Prerequisites
 
