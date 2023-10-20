@@ -5,7 +5,7 @@ import styles from './styles';
 function Social() {
   return (
     <View style={[styles.col, styles.center]}>
-      <Text style={[styles.text, styles.heading]}>Follow us here</Text>
+      <Text style={[styles.text, styles.heading, {fontSize: 40, textAlign: 'justify', fontFamily: 'arial'}]}>Follow us here</Text>
       <View style={styles.socialContainer}>
         <TouchableHighlight
           onPress={() =>
