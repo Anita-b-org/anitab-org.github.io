@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import {
   View,
   Image,
@@ -8,6 +8,10 @@ import {
 } from 'react-native';
 
 function Header({ selected, setSelected, titles }) {
+  useEffect(()=>{
+
+    console.log("navigatinng");
+  },[selected]);
   return (
     <View
       style={{
