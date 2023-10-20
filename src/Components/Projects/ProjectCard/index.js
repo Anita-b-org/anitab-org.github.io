@@ -56,19 +56,19 @@ const ProjectCard = ({ props, isOver }) => {
 
 const styles = StyleSheet.create({
   title: {
-    color: '#103B81',
+    color: 'black',
     fontWeight: '400',
     fontSize: 18,
     marginTop: 8,
   },
   smallText: {
-    color: '#103B81',
+    color: 'black',
     fontWeight: '300',
     fontSize: 12,
     marginLeft: 8,
   },
   description: {
-    color: '#103B81',
+    color: 'black',
     fontWeight: '200',
     fontSize: 14,
     marginTop: 8,

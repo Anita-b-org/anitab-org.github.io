@@ -3,7 +3,7 @@ import { View, Image } from 'react-native';
 
 const Contributors = ({
   url,
-  styles = { flexDirection: 'row' },
+  styles = { flexDirection: 'row', color: 'white' },
   imageStyle = {
     width: 24,
     height: 24,
@@ -32,6 +32,7 @@ const Contributors = ({
               key={index}
               target="_blank"
               rel="noopener noreferrer"
+              style={{ color: 'white' }}
               href={contributor.html_url}
             >
               <Image

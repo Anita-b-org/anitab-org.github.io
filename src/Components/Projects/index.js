@@ -35,7 +35,7 @@ function Projects(props) {
               <ProjectCard
                 key={card.title}
                 props={card}
-                backgroundColor="#e7edfd"
+                backgroundColor="#b3f6ae"
                 padding={12}
               />
             ))}
