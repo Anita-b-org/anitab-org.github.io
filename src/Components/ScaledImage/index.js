@@ -35,7 +35,8 @@ function ScaledImage({
   return (
     <a href={url}>
       <Image
-        source={isOver && overSource ? overSource : source}
+        // source={isOver && overSource ? overSource : source}
+        source={source}
         style={imageStyle}
       />
     </a>
