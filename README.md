@@ -49,7 +49,7 @@ When a repository is cloned, it has a default remote named `origin` that points 
 You can check that the previous command worked by running `git remote -v`. You should see the following output:
 
 ```
-$ git remote -v
+$ git remote -v 
 origin  https://github.com/YOUR_GITHUB_USER_NAME/anitab-org.github.io (fetch)
 origin  https://github.com/YOUR_GITHUB_USER_NAME/anitab-org.github.io (push)
 upstream        https://github.com/anitab-org/anitab-org.github.io.git (fetch)
